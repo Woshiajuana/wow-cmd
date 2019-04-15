@@ -7,18 +7,18 @@ const Handle = (options, data) => new Promise((resolve, reject) => {
 
 // 参数 options
 Handle.options = {
-    cmd: ['-o'],
+    cmd: ['-t', '--template'],
 };
 
 // 成功
 Handle.success = (res, next) => {
-    console.log('old-template 执行成功');
+    console.log('template 执行成功');
     next(res);
 };
 
 // 失败
 Handle.error = (err, next) => {
-    console.log('old-template 执行失败');
+    console.log('template 执行失败');
     next(err);
 };
 
