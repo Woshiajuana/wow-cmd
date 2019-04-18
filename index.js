@@ -4,6 +4,7 @@ const walk = require('./utils/walk.util');
 const task = require('./utils/task.util');
 const dupl = require('./utils/dupl.util');
 const logs = require('./utils/log.util');
+const output = require('./utils/output.util');
 
 
 const argv = [...process.argv];
@@ -58,3 +59,4 @@ module.exports = function (opt = { cmdPath: '', options: { include: ['.cmd.js'],
 };
 
 module.exports.log = logs;
+module.exports.output = output;
