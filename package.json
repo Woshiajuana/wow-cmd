@@ -1,6 +1,6 @@
 {
     "name": "wow-cmd",
-    "version": "0.0.13",
+    "version": "0.0.14",
     "description": "node cmd",
     "main": "index.js",
     "scripts": {
@@ -8,7 +8,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/Woshiajuana/wtnhz.git"
+        "url": "git+https://github.com/Woshiajuana/wow-cmd.git"
     },
     "keywords": [
         "node",
@@ -36,9 +36,9 @@
     ],
     "license": "ISC",
     "bugs": {
-        "url": "https://github.com/Woshiajuana/wtnhz/issues"
+        "url": "https://github.com/Woshiajuana/wow-cmd/issues"
     },
-    "homepage": "https://github.com/Woshiajuana/wtnhz#readme",
+    "homepage": "https://github.com/Woshiajuana/wow-cmd#readme",
     "devDependencies": {
         "babel-core": "^6.23.1",
         "babel-loader": "^6.3.2",
