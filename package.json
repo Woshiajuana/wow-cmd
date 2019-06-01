@@ -1,6 +1,6 @@
 {
     "name": "wow-cmd",
-    "version": "0.0.16",
+    "version": "0.0.17",
     "description": "node cmd",
     "main": "index.js",
     "scripts": {
