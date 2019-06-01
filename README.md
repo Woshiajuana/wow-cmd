@@ -12,8 +12,6 @@
 project
 ├── lib                                     // 自带命令任务
 |   ├── template.cmd.js                     // 示例命令任务写法
-├── template                                // 自带命令任务模版
-|   ├── delete.cmd.js                       // 清除某个目录下文件任务模版
 ├── test                                    // 测试任务
 |   ├── index.js
 ├── utils                                   // 工具目录
