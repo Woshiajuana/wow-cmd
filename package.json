@@ -38,6 +38,9 @@
     "bugs": {
         "url": "https://github.com/Woshiajuana/wow-cmd/issues"
     },
+    "dependencies": {
+        "fs-extra": "^7.0.1"
+    },
     "homepage": "https://github.com/Woshiajuana/wow-cmd#readme",
     "devDependencies": {
         "babel-core": "^6.23.1",
