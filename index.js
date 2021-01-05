@@ -28,6 +28,11 @@ module.exports = function (opt = { cmdPath: '', options: { include: ['.cmd.js'],
     if (!parameters.length)
         return;
     let fireFunArr = [];
+    const query = {};
+    parameters.filter(item => item.includes('=')).forEach(item => {
+        let [key, value] = item.split('=');
+        query[key] = value;
+    });
     parameters.forEach((item, index) => {
         result.forEach((fireFun) => {
             if (typeof fireFun !== 'function'
@@ -45,6 +50,7 @@ module.exports = function (opt = { cmdPath: '', options: { include: ['.cmd.js'],
             let options = {
                 params: parameters[index + 1],
                 parameters,
+                query,
             };
             fireFunArr.push({
                 fireFun,
